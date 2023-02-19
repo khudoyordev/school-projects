@@ -1,0 +1,409 @@
+.section .title {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+}
+.section .search-areas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.section .search-areas .input {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+}
+.section .search-areas .search-btn {
+  width: 70px;
+  height: 35px;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  background-color: #000;
+}
+.section .table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+.section .table .table-heads .table-row {
+  text-align: left;
+}
+.section .table .table-heads .table-row .table-head {
+  font-size: 18px;
+}
+.section .table .table-body .table-row {
+  text-align: left;
+  height: 35px;
+}
+.section .table .table-body .table-row .table-head .btn,
+.section .table .table-body .table-row .table-head .btn-delete {
+  background-color: rgb(224, 147, 147);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.section .all-delete {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(223, 121, 121);
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+.section-pupil .title {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+}
+.section-pupil .search-areas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.section-pupil .search-areas .input {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+}
+.section-pupil .search-areas .search-btn {
+  width: 70px;
+  height: 35px;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  background-color: #000;
+}
+.section-pupil .table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+.section-pupil .table .thead .table-row {
+  text-align: left;
+}
+.section-pupil .table .thead .table-row .table-head {
+  font-size: 18px;
+}
+.section-pupil .table .tbody .row {
+  height: 30px;
+}
+.section-pupil .table .tbody .row .table-title {
+  font-size: 16px;
+}
+.section-pupil .table .tbody .row .table-title .btn {
+  background-color: rgb(224, 147, 147);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.section-pupil .all-delete {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(223, 121, 121);
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-room .title {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+}
+.section-room .input {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+  display: block;
+  margin: 15px auto;
+}
+.section-room .table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+.section-room .table .table-heads .table-head {
+  text-align: left;
+}
+.section-room .table .table-heads .table-head .table-title {
+  font-size: 22px;
+  color: #000;
+}
+.section-room .table .table-body .table-row {
+  text-align: left;
+  height: 25px;
+}
+.section-room .table .table-body .table-row .table-data {
+  font-size: 18px;
+  color: #000;
+}
+.section-room .table .table-body .table-row .table-data .btn-delete {
+  background-color: rgb(224, 147, 147);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.section-room .all-delete {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(223, 121, 121);
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.subject-section .title {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+}
+.subject-section .input {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+  display: block;
+  margin: 15px auto;
+}
+.subject-section .table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+.subject-section .table .table-head tr {
+  text-align: left;
+}
+.subject-section .table .table-body tr {
+  height: 30px;
+  text-align: left;
+}
+.subject-section .table .table-body tr td .btn-delete {
+  background-color: rgb(224, 147, 147);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.subject-section .all-delete {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(223, 121, 121);
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clas-section .title {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+}
+.clas-section .input {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+  display: block;
+  margin: 20px auto;
+}
+.clas-section .table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+.clas-section .table .thead tr {
+  text-align: left;
+}
+.clas-section .table .tbody tr {
+  text-align: left;
+  height: 30px;
+}
+.clas-section .table .tbody tr td button {
+  background-color: rgb(224, 147, 147);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.clas-section .all-delete {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(223, 121, 121);
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+}
+.container-fluid .sidebar {
+  width: 350px;
+  background-color: #eee;
+}
+.container-fluid .sidebar .link-items {
+  margin: 35px 0;
+}
+.container-fluid .sidebar .link-items .link-item {
+  display: block;
+  margin: 8px 25px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+.container-fluid .sidebar .link-items .link-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  transition: all 500ms ease;
+}
+.container-fluid .sidebar .link-items .link-item:hover::after {
+  width: 110px;
+}
+.container-fluid .rightside {
+  width: calc(100vw - 350px);
+}
+.container-fluid .rightside .header {
+  width: 100%;
+  height: 50px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.container-fluid .rightside .header .btn {
+  border: none;
+  outline: none;
+}
+.container-fluid .rightside .header .btn #icon-burger,
+.container-fluid .rightside .header .btn #icon-moon {
+  font-size: 24px;
+  color: #000;
+}
+.container-fluid .rightside .main {
+  width: 100%;
+  height: calc(100vh - 50px);
+  padding: 10px 20px;
+}
+.container-fluid .rightside .main .main-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-fluid .rightside .main .main-title .title,
+.container-fluid .rightside .main .main-title .title-card {
+  font-size: 28px;
+  font-weight: 700;
+}
+.container-fluid .rightside .main .content {
+  padding: 0;
+}
+.container-fluid .rightside .main .content #cards .card {
+  margin: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.day {
+  background: rgb(43, 32, 32) !important;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  background: #eee;
+}/*# sourceMappingURL=style.css.map */

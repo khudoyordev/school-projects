@@ -1,0 +1,52 @@
+@mixin titleStyle {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+}
+
+@mixin table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@mixin tableRow {
+  text-align: left;
+}
+
+@mixin buttons {
+  background-color: rgb(224, 147, 147);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+@mixin flexFuncs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+@mixin inputSearch {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+}
+
+@mixin btnSearch {
+  width: 70px;
+  height: 35px;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  background-color: #000;
+}

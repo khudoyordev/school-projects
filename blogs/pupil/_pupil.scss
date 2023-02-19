@@ -1,0 +1,53 @@
+@import "../../mixins/mixin";
+
+.section-pupil {
+  .title {
+    @include titleStyle;
+  }
+
+  .search-areas {
+    @include flexFuncs;
+    .input {
+      @include inputSearch;
+    }
+    .search-btn {
+      @include btnSearch;
+    }
+  }
+
+  .table {
+    @include table;
+
+    .thead {
+      .table-row {
+        @include tableRow;
+        .table-head {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .tbody {
+      .row {
+        height: 30px;
+        .table-title {
+          font-size: 16px;
+          .btn {
+            @include buttons;
+          }
+        }
+      }
+    }
+  }
+  .all-delete {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(223, 121, 121);
+    width: 100px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+}
